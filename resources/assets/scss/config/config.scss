@@ -1,0 +1,20 @@
+* {
+	color: $text;
+}
+
+.nav-color {
+	background-color: $main_color;
+	color: $text_nav;
+	
+	a, ul, i {
+		color: $text_nav;
+	}
+
+}
+
+.text-default {
+	color: $text;
+}
+.justify-align {
+	text-align: justify;
+}

@@ -1,0 +1,19 @@
+<?php
+
+namespace Store;
+
+use Silex\Application;
+use Silex\ControllerProviderInterface;
+
+class RouteController implements ControllerProviderInterface
+{
+
+	public function connect(Application $app)
+	{
+		$controllers = $app['controllers_factory'];
+
+		$controllers->get('/', 'Store\Controllers\StoreController::indexAction');
+
+		return $controllers;
+	}
+}

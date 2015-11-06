@@ -1,0 +1,31 @@
+{
+    "name": "erik/produtos-test-unitario",
+    "description": "\"Teste unitarios\"",
+    "require": {
+        "twig/twig": "^1.22",
+        "silex/silex": "^1.3",
+        "symfony/http-foundation": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "phpunit/php-code-coverage": "^3.0",
+        "phpdocumentor/phpdocumentor": "^2.8"
+    },
+    "authors": [
+        {
+            "name": "Erik Vanderlei Fernandes",
+            "email": "erik.vanderlei.programador@outlook.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    	    "Store\\": "src//Store//"
+    	}
+    },
+    "scripts": {
+    	"test": "bin/phpunit"
+    },
+    "config": {
+    	"bin-dir": "bin"
+    }
+}

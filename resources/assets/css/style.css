@@ -1,0 +1,14 @@
+* {
+  color: #333; }
+
+.nav-color {
+  background-color: #b71c1c;
+  color: #ffffff; }
+  .nav-color a, .nav-color ul, .nav-color i {
+    color: #ffffff; }
+
+.text-default {
+  color: #333; }
+
+.justify-align {
+  text-align: justify; }
